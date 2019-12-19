@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+
+  <title>Weather app</title>
+</head>
+<body>
+  <div class="container-fluid cont0" id="city-search">
+    <div class="search">
+    <h1 class="display-4" style="color:#fff">Enter city name: </h1>
+    <input type="text" class="input">
+    <button class="btn btn-danger" id="searchBtn">Submit</button>
+  </div>
+  </div>
+
+
+
+
+
+
+ <div class="container-fluid cont1  remove">
+  
+  <div class="weather-app ">
+        <div id="location-div" class="row text-center" class="image">
+          <img src="assets/location.svg" alt="Location" id="location-pic">
+        </div>
+
+    
+        <div id="city" class="row text-center">
+          
+        </div>
+        
+        
+        <div id="temp" class="row text-center">
+
+        </div>
+      
+
+      
+        <div id="feels-like" class="row text-center">
+          <span id="min-max"></span>
+          <span id="feels-like"></span>
+        </div>
+        
+        <div class="days">
+          <button class="btn btn-primary" id="days">See weather for next 5 days</button>
+        </div>
+      </div>  
+    
+    
+  </div> 
+   
+  
+
+
+     
+
+
+<div class="container-fluid cont2 remove">
+  
+  <div class="cards">
+    
+    <div class="col-lg-2 card dan1">
+      <h1 class="stepen"></h1>
+      <p class="nebo"></p>
+      <span class="slika"></span>
+      <p class="vjetar"></p>
+      <div class="wind-img"></div>
+    </div>
+    <div class="col-lg-2 card dan2">
+      <h1 class="stepen"></h1>
+      <p class="nebo"></p>
+      <span class="slika"></span>
+      <p class="vjetar"></p>
+      <div class="wind-img"></div>
+    </div>
+    <div class="col-lg-2 card dan3">
+      <h1 class="stepen"></h1>
+      <p class="nebo"></p>
+      <span class="slika"></span>
+      <p class="vjetar"></p>
+      <div class="wind-img"></div>
+    </div>
+    <div class="col-lg-2 card dan4">
+      <h1 class="stepen"></h1>
+      <p class="nebo"></p>
+      <span class="slika"></span>
+      <p class="vjetar" id="vjetar"></p>
+      <div class="wind-img"></div>
+    </div> 
+    <div class="col-lg-2 card dan5">
+      <h1 class="stepen"></h1>
+      <p class="nebo"></p>
+      <span class="slika"></span>
+      <p class="vjetar"></p>
+      <div class="wind-img"></div>
+    </div> 
+     
+  </div>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
